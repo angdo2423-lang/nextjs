@@ -51,7 +51,7 @@ export default function Home({ siteName, siteId, siteColor, baseUrl }: HomeProps
           <div className="badge">Site ID: {siteId}</div>
           <div className="badge">Next.js SSR</div>
           <p className="description">
-            Next.js Server-Side Rendering을 사용한 SSO 테스트 환경입니다.
+            이것도 소스 수정했습니다.
           </p>
         </div>
 
