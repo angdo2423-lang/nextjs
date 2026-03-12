@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true,  // 추가
+    ignoreBuildErrors: true,
+  },  // ← 이 닫는 중괄호 빠져있었음
   reactStrictMode: true,
   swcMinify: true,
   async rewrites() {
@@ -14,5 +15,4 @@ const nextConfig = {
   },
   basePath: '/test',
 };
-
 module.exports = nextConfig;
