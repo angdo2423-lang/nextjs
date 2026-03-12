@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone',  // ← 추가
   typescript: {
     ignoreBuildErrors: true,
-  },  // ← 이 닫는 중괄호 빠져있었음
+  },
   reactStrictMode: true,
   swcMinify: true,
   async rewrites() {
