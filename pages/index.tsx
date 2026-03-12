@@ -41,7 +41,7 @@ export default function Home({ siteName, siteId, siteColor, baseUrl }: HomeProps
     <>
       <Head>
         <title>{siteName}</title>
-        <meta name="description" content="SSO Test with Next.js SSR" />
+        <meta name="description" content="소스 수정했습니다." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
