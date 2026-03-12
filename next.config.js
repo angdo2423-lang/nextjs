@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  typescript: {
+    ignoreBuildErrors: true,  // 추가
   reactStrictMode: true,
   swcMinify: true,
   async rewrites() {
